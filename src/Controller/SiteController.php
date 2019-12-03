@@ -15,7 +15,7 @@ class SiteController extends AbstractController
      */
     public function index()
     {
-        $version = '1.0.5';
+        $version = '1.0.6';
 
         return $this->render('site/index.html.twig', ['version' => $version]);
     }
